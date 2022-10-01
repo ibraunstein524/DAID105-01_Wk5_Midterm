@@ -1,0 +1,103 @@
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+       }
+      div.mainbox{
+       background-color: black;
+        width: 80%;
+        margin: 0 auto;
+      }
+      header{
+        background-color: rgb(47, 149, 139);
+      }
+      .main img{
+        width: 100%;
+      }      
+      div.landscapes{
+        width: 50%;
+      }
+      div.artwork{
+        width: 45%;
+      }
+      div.flowers{
+        width: 45%;
+        height: 50%;
+      }
+      div.graphics{
+        width: 45%;
+      }
+      main img{
+        width: 100%;
+      }
+      main{
+       display: inline-flex;
+       justify-content: space-around;
+      }           
+      portal img{
+        width: 100%;
+      }
+      portal{
+       display: flex;
+       justify-content: space-evenly;
+       
+      }
+      portal2 img{
+        width: 100%;
+      }
+      portal2{
+       display: flex;
+       justify-content: space-evenly;
+       border-top: 10% black;
+      }
+      nav{
+        background-color: none;
+      }  
+      ul{
+        text-align: center;
+        padding: 1%;
+        padding-bottom: 2%;
+      }
+      li{
+        display: inline-block;
+        width: 150px;
+        border: 2px solid black;
+        line-height: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1%;
+      }
+      a{
+        color: rgb(189, 169, 10);
+        text-decoration: none;
+        background-color: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 10px;
+        font-size: larger;
+        text-align: center;
+        border: 5% rgb(47, 149, 139);
+        display: block;
+      }
+      h1{
+        text-align: center;
+        padding-top: 1%;
+      }
+      h2{
+        text-align: center;
+        color: rgb(189, 169, 10);
+        border-bottom: 1%;
+        padding-bottom: 1%;
+      }
+      h3{
+        text-align: center;
+        color: rgb(244, 243, 239);
+        border-bottom: 45% rgb(6, 122, 122);
+        padding-bottom: 1%;
+      }
+    
+      footer{
+        color: rgb(244, 243, 239);
+        padding: 5%;
+      }
+    
+      
